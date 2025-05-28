@@ -20,16 +20,21 @@
     <main>
      <div class="weather-app-data">
             <div>
-              <h1 class="weather-app-city" id="city">Tzaneen</h1>
-              <p class="weather-app-details">Tuesday 11:55, Sunny
+              <h1 class="weather-app-city" id="city"></h1>
+              <p class="weather-app-details">
+                <span id="time"></span>, 
+                <span id="description"></span>
                  <br>
-              Humidity: <strong>50%</strong>, Wind:  <strong>5km/h</strong>
+              Humidity: <strong id="humidity">%</strong>, Wind:  <strong id="wind">5km/h</strong>
              </p>
            </div>
       
            <div class="container" >
-              <div class="weather-app-icon">🌤️</div> 
-              <div class="weather-app-temperature" id="temperature"> 22</div>
+             
+            <div id="icon">
+              
+            </div>
+              <div class="weather-app-temperature" id="temperature"> </div>
              <div class="weather-app-units">°C</div>
           </div>
      </div>
